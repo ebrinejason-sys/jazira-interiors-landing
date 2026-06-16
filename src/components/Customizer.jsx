@@ -38,7 +38,7 @@ export default function Customizer() {
         <SectionIntro
           eyebrow="Customization"
           title="Let customers shape their dream piece before they call."
-          copy="This demo turns choices into a clear inquiry summary, ready for a future pricing engine, quote request database, and WhatsApp automation."
+          copy="Select sizes, materials, colors, and finishes, then send a clear inquiry for the exact piece you want."
           tone="light"
         />
 
@@ -68,7 +68,7 @@ export default function Customizer() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.96 }}
                   transition={{ duration: 0.35 }}
-                  className="h-72 w-full rounded-[8px] object-cover xl:h-full"
+                  className="h-56 w-full rounded-[8px] object-cover sm:h-72 xl:h-full"
                 />
               </AnimatePresence>
 
@@ -125,7 +125,7 @@ export default function Customizer() {
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-clay">Estimated quote</p>
               <p className="mt-2 font-display text-3xl font-semibold">Contact for price</p>
               <p className="mt-3 text-sm leading-6 text-ink/64">
-                Final pricing can later calculate from product type, material, size, delivery location, and deposit terms.
+                Pricing is confirmed after material, size, delivery location, and finishing details are reviewed.
               </p>
             </div>
             <a

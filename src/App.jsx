@@ -9,10 +9,12 @@ import Gallery from "./components/Gallery.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import CTASection from "./components/CTASection.jsx";
 import Footer from "./components/Footer.jsx";
+import Preloader from "./components/Preloader.jsx";
 
 export default function App() {
   return (
     <main className="min-h-screen overflow-hidden bg-ivory text-ink">
+      <Preloader />
       <Navbar />
       <HeroSection />
       <CategoriesSection />

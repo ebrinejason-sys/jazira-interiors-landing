@@ -10,9 +10,9 @@ export default function BusinessBenefits() {
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <SectionIntro
             align="left"
-            eyebrow="Business value"
-            title="Why Jazira Interiors needs this website."
-            copy="A premium digital showroom makes the brand easier to trust, easier to market, and easier to sell through social media campaigns, referrals, and search."
+            eyebrow="The Jazira standard"
+            title="Designed for comfort, trust, and lasting beauty."
+            copy="Every piece is presented with a clear path from inspiration to customization, quote request, delivery planning, and after-sale confidence."
             tone="light"
           />
 

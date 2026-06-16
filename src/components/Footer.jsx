@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mt-5 max-w-sm text-sm leading-7 text-white/62">
-              Custom furniture, home interiors, office pieces, and quote-ready digital showroom experiences for modern customers.
+              Custom furniture, home interiors, office pieces, and made-to-order designs for refined modern spaces.
             </p>
           </div>
 
@@ -32,11 +32,11 @@ export default function Footer() {
               href="https://wa.me/256700000000?text=Hello%20Jazira%20Interiors."
               className="focus-ring mt-5 inline-flex items-center gap-2 rounded-full bg-bronze px-5 py-3 text-sm font-bold text-white"
             >
-              <MessageCircle size={17} /> WhatsApp CTA
+              <MessageCircle size={17} /> WhatsApp
             </a>
             <div className="mt-5 flex gap-3">
               {["IG", "FB", "TT"].map((label) => (
-                <a key={label} href="#" aria-label={`${label} social media placeholder`} className="focus-ring grid h-10 w-10 place-items-center rounded-full border border-white/14 text-xs font-black text-white/70 transition hover:border-bronze hover:text-white">
+                <a key={label} href="#" aria-label={`${label} social media`} className="focus-ring grid h-10 w-10 place-items-center rounded-full border border-white/14 text-xs font-black text-white/70 transition hover:border-bronze hover:text-white">
                   {label}
                 </a>
               ))}

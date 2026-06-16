@@ -208,14 +208,14 @@ export const testimonials = [
 ];
 
 export const benefits = [
-  "Customers can view products anytime",
-  "Builds trust and professionalism",
-  "Makes the business easier to discover online",
-  "Reduces repeated WhatsApp explanations",
-  "Helps customers customize before contacting",
-  "Creates a premium brand image",
-  "Allows future payments and order tracking",
-  "Collects stronger customer leads",
-  "Makes social media ads convert better",
-  "Gives Jazira a digital showroom",
+  "Curated furniture for homes and offices",
+  "Clear product details before inquiry",
+  "Custom sizes, colors, and materials",
+  "Friendly WhatsApp quote support",
+  "Premium presentation for every category",
+  "Flexible payment preferences",
+  "Delivery planning for local orders",
+  "Comfort-focused furniture selection",
+  "Elegant inspiration for complete rooms",
+  "Personal support from inquiry to delivery",
 ];

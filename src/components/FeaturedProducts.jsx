@@ -9,8 +9,8 @@ export default function FeaturedProducts() {
       <div className="section-shell">
         <SectionIntro
           eyebrow="Featured products"
-          title="Beautiful pieces with clear commercial actions."
-          copy="Product cards are designed for real selling: customers can customize, inquire, or later proceed into checkout and order tracking."
+          title="Signature pieces ready for homes, offices, and hospitality spaces."
+          copy="Explore refined furniture options, request a quote, or customize the details to match your interior."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -24,7 +24,7 @@ export default function FeaturedProducts() {
               className="group overflow-hidden rounded-[8px] bg-white shadow-soft"
             >
               <div className="relative overflow-hidden">
-                <img src={product.image} alt={product.name} className="h-72 w-full object-cover transition duration-700 group-hover:scale-105" />
+                <img src={product.image} alt={product.name} className="h-60 w-full object-cover transition duration-700 group-hover:scale-105 sm:h-72" />
                 {product.customizable && (
                   <span className="absolute left-4 top-4 rounded-full bg-ink/82 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white backdrop-blur">
                     Customizable
@@ -34,7 +34,7 @@ export default function FeaturedProducts() {
               <div className="p-6">
                 <p className="text-sm font-bold text-clay">{product.category}</p>
                 <h3 className="mt-2 font-display text-3xl font-semibold">{product.name}</h3>
-                <p className="mt-3 min-h-16 text-sm leading-6 text-ink/65">{product.description}</p>
+                <p className="mt-3 text-sm leading-6 text-ink/65 md:min-h-16">{product.description}</p>
                 <div className="mt-5 flex items-center justify-between border-t border-ink/10 pt-5">
                   <span className="font-bold text-ink">{product.startingPrice}</span>
                 </div>

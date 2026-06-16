@@ -30,7 +30,7 @@ export default function QuoteSection() {
             align="left"
             eyebrow="Quote and billing"
             title="Turn interest into a clean, trackable inquiry."
-            copy="The website can collect a customer’s preferred product, customization summary, delivery location, and payment preference before Jazira follows up."
+            copy="Share your preferred product, customization summary, delivery location, and payment preference so the team can prepare an accurate response."
           />
 
           <motion.div
@@ -91,7 +91,7 @@ export default function QuoteSection() {
             transition={{ duration: 0.7 }}
             className="rounded-[8px] bg-midnight p-6 text-white shadow-luxury md:p-8"
           >
-            <p className="eyebrow text-bronze">Future payment support</p>
+            <p className="eyebrow text-bronze">Payment options</p>
             <div className="mt-6 grid gap-3">
               {[
                 [Smartphone, "Mobile Money"],
@@ -117,7 +117,7 @@ export default function QuoteSection() {
           >
             <div className="flex flex-col justify-between gap-4 border-b border-ink/10 pb-6 sm:flex-row">
               <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-clay">Mock quote preview</p>
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-clay">Quote preview</p>
                 <h3 className="mt-2 font-display text-4xl font-semibold">Jazira Interiors</h3>
               </div>
               <div className="text-left sm:text-right">
@@ -140,7 +140,7 @@ export default function QuoteSection() {
                 <span className="rounded-full bg-bronze px-4 py-2 text-sm font-bold text-white">Contact for price</span>
               </div>
               <p className="mt-3 text-sm leading-6 text-ink/64">
-                This preview can later become a downloadable invoice, dashboard lead, or payment request.
+                A team member confirms the final quotation, payment plan, and delivery schedule before production begins.
               </p>
             </div>
           </motion.div>

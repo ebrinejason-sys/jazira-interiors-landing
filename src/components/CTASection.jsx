@@ -1,4 +1,4 @@
-import { ArrowRight, MessageCircle, MonitorSmartphone } from "lucide-react";
+import { ArrowRight, MessageCircle, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function CTASection() {
@@ -17,22 +17,22 @@ export default function CTASection() {
         transition={{ duration: 0.7 }}
         className="section-shell relative z-10 max-w-4xl text-center"
       >
-        <p className="eyebrow text-bronze">Bring Jazira online</p>
-        <h2 className="mt-4 font-display text-5xl font-semibold leading-[1.02] md:text-7xl">
-          Ready to bring Jazira Interiors online?
+        <p className="eyebrow text-bronze">Your space, refined</p>
+        <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.04] sm:text-5xl md:text-7xl">
+          Ready to transform your home or workspace?
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/76">
-          A professional website can turn your furniture business into a digital showroom where customers discover, customize, and request quotes with ease.
+          Explore collections, customize your preferred piece, and request a quote from Jazira Interiors with confidence.
         </p>
         <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
           <a href="#quote" className="focus-ring inline-flex items-center justify-center gap-2 rounded-full bg-bronze px-6 py-4 font-bold text-white transition hover:bg-clay">
-            <MonitorSmartphone size={18} /> Start Your Website
+            <Sparkles size={18} /> Request a Quote
           </a>
           <a href="#customize" className="focus-ring inline-flex items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-6 py-4 font-bold text-white backdrop-blur transition hover:bg-white/16">
-            Request a Demo <ArrowRight size={18} />
+            Customize a Piece <ArrowRight size={18} />
           </a>
           <a
-            href="https://wa.me/256700000000?text=Hello%2C%20I%20would%20like%20a%20demo%20for%20Jazira%20Interiors."
+            href="https://wa.me/256700000000?text=Hello%20Jazira%20Interiors%2C%20I%20would%20like%20help%20choosing%20furniture."
             className="focus-ring inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-6 py-4 font-bold text-white transition hover:bg-white/10"
           >
             <MessageCircle size={18} /> Chat on WhatsApp

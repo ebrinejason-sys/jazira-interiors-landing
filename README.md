@@ -1,6 +1,6 @@
 # Jazira Interiors Landing Website
 
-A premium React and Tailwind landing website for Jazira Interiors, designed as a digital showroom for furniture collections, custom furniture inquiries, quote requests, and future online ordering.
+A premium React and Tailwind landing experience for Jazira Interiors, designed for furniture collections, custom furniture inquiries, quote requests, and elegant product presentation.
 
 ## Features
 
@@ -10,7 +10,7 @@ A premium React and Tailwind landing website for Jazira Interiors, designed as a
 - Quote and billing preview flow
 - WhatsApp inquiry links
 - Gallery, testimonials, business-value section, CTA, and footer
-- Mock product data structured for a future backend
+- Clean product data structure for easy catalogue updates
 
 ## Development
 

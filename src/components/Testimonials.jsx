@@ -10,7 +10,7 @@ export default function Testimonials() {
         <SectionIntro
           eyebrow="Client stories"
           title="Trust signals for a premium local brand."
-          copy="Real reviews can be added later from completed orders, WhatsApp conversations, or Google Business Profile feedback."
+          copy="Helpful feedback from customers who value comfort, detail, and a smooth furniture selection experience."
         />
         <div className="mt-14 grid gap-5 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (

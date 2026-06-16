@@ -10,7 +10,7 @@ export default function CategoriesSection() {
         <SectionIntro
           eyebrow="Collections"
           title="Furniture families presented like a curated showroom."
-          copy="Each category gives customers a clear path from inspiration to inquiry, with room for real product uploads and inventory management later."
+          copy="Browse by room, lifestyle, and finish, then move naturally from inspiration to a personal quote."
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -25,7 +25,7 @@ export default function CategoriesSection() {
                 index === 0 || index === 6 ? "lg:col-span-2" : ""
               }`}
             >
-              <img src={category.image} alt={category.name} className="h-80 w-full object-cover transition duration-700 group-hover:scale-105" />
+              <img src={category.image} alt={category.name} className="h-72 w-full object-cover transition duration-700 group-hover:scale-105 sm:h-80" />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/78 via-ink/18 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-6 text-white md:p-7">
                 <div className="flex items-end justify-between gap-5">

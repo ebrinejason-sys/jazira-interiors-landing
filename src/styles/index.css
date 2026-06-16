@@ -15,11 +15,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
 }
 
 button,
@@ -53,8 +55,8 @@ img {
 
 .grain-overlay {
   background-image:
-    radial-gradient(circle at 25% 20%, rgba(184, 134, 75, 0.14), transparent 28%),
-    linear-gradient(135deg, rgba(247, 240, 229, 0.16), rgba(23, 35, 38, 0.45));
+    radial-gradient(circle at 25% 20%, rgba(184, 134, 75, 0.08), transparent 26%),
+    linear-gradient(135deg, rgba(20, 19, 19, 0.38), rgba(23, 35, 38, 0.76));
 }
 
 .no-scrollbar::-webkit-scrollbar {
