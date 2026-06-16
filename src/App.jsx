@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar.jsx";
 import HeroSection from "./components/HeroSection.jsx";
+import ShowroomValue from "./components/ShowroomValue.jsx";
 import CategoriesSection from "./components/CategoriesSection.jsx";
 import Customizer from "./components/Customizer.jsx";
 import FeaturedProducts from "./components/FeaturedProducts.jsx";
@@ -10,6 +11,7 @@ import Testimonials from "./components/Testimonials.jsx";
 import CTASection from "./components/CTASection.jsx";
 import Footer from "./components/Footer.jsx";
 import Preloader from "./components/Preloader.jsx";
+import FloatingWhatsApp from "./components/FloatingWhatsApp.jsx";
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       <Preloader />
       <Navbar />
       <HeroSection />
+      <ShowroomValue />
       <CategoriesSection />
       <Customizer />
       <FeaturedProducts />
@@ -26,6 +29,7 @@ export default function App() {
       <Testimonials />
       <CTASection />
       <Footer />
+      <FloatingWhatsApp />
     </main>
   );
 }

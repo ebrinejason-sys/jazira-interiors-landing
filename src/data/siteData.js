@@ -219,3 +219,28 @@ export const benefits = [
   "Elegant inspiration for complete rooms",
   "Personal support from inquiry to delivery",
 ];
+
+export const showroomStats = [
+  {
+    value: "24/7",
+    label: "Showroom access",
+    detail: "Customers can browse beautiful pieces whenever interest is highest.",
+  },
+  {
+    value: "3 taps",
+    label: "Inquiry path",
+    detail: "View a piece, customize it, and send a clear WhatsApp quote request.",
+  },
+  {
+    value: "1 brand",
+    label: "Premium impression",
+    detail: "Every product, room setup, and detail feels consistent and intentional.",
+  },
+];
+
+export const showroomJourney = [
+  "A customer sees Jazira from Instagram, TikTok, referral, or Google.",
+  "They land on a refined showroom that immediately builds trust.",
+  "They browse collections, compare styles, and customize a preferred piece.",
+  "Jazira receives a cleaner inquiry with product, finish, location, and payment preference.",
+];

@@ -69,7 +69,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
             className="eyebrow text-bronze"
           >
-            Premium Ugandan furniture showroom
+            Premium furniture showroom concept
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 26 }}
@@ -85,7 +85,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-5 max-w-2xl text-xl font-semibold leading-tight text-white sm:text-2xl md:text-4xl"
           >
-            Transform your space with furniture made for your lifestyle.
+            A showroom people can trust before they visit.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 26 }}
@@ -93,7 +93,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="mt-4 max-w-2xl text-sm leading-7 text-white/82 sm:text-base md:text-lg md:leading-8"
           >
-            Explore premium dining sets, living room seats, beds, chairs, side tables, and custom interior pieces designed to bring comfort, beauty, and personality into your home.
+            Give Jazira Interiors a polished online space where customers discover furniture, customize the details, and send serious quote requests with confidence.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 26 }}
@@ -102,7 +102,7 @@ export default function HeroSection() {
             className="mt-7 flex flex-col gap-3 sm:flex-row"
           >
             <a className="focus-ring inline-flex items-center justify-center gap-2 rounded-full bg-bronze px-6 py-4 font-bold text-white shadow-luxury transition hover:bg-clay" href="#collections">
-              Explore Collections <ArrowRight size={18} />
+              View the Showroom <ArrowRight size={18} />
             </a>
             <a className="focus-ring inline-flex items-center justify-center gap-2 rounded-full border border-white/38 bg-white/10 px-6 py-4 font-bold text-white backdrop-blur-md transition hover:bg-white/18" href="#customize">
               <Sparkles size={18} /> Customize Your Design
